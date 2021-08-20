@@ -52,8 +52,12 @@ body  {
   border: 1px solid darkgray;  
 }
 
-.input-50  {
-  width: 50%;
+.input-30  {
+  width: 30%;
+}
+
+.input-70  {
+  width: 70%;
 }
 
 
