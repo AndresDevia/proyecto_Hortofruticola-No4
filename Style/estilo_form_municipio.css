@@ -1,4 +1,6 @@
 
+
+
 * {
   box-sinzing: border-box;
 }
@@ -9,6 +11,13 @@ body  {
   background: #204862;
 }
 
+.form-municipio {
+  width: 60%;
+  max-width: 500px;
+  margin: auto;
+  background: #d6e6ed;
+  border-radius: 7px;
+}
 
 
 
