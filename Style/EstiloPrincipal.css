@@ -177,6 +177,20 @@ label{
 .tienda h3 {
   text-align: justify;  
 }
+
+.btn_municipios {
+  background: #188B37;
+  color: #fff;
+  margin: auto;
+  padding: 19px 40px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.btn_municipios: active {
+  transform: scale(1.05);
+}
+
   
 /*************************/
 
