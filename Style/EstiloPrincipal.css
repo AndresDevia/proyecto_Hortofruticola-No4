@@ -217,13 +217,52 @@ label{
 
 //******MODO RESPONSIVE */
   
-@media screen and  (max-width:600px) {
-         .tienda{
-              grid-template: repeat(1,300px) / repeat(1, 300px);         
-  }
-  
+@media screen and (max-width: 600px){
+	.tienda{
+		grid-template: repeat(3, 300px) / repeat(1, 300px) ;
+	}
 }
-  
+
+@media screen and (max-width: 600px){
+	
+.Cabecera {
+ display: flex;
+ justify-content: space-between;
+ position: relative;
+ height: 130px;
+}
+ 
+.Cabecera figure {
+ width:130px;
+ Margin:Auto;
+}
+
+
+.Cabecera img{
+ width:95px; 
+ height:80px;
+}
+
+.cabecera_h1 { 
+ 
+ position: absolute;
+ top: 40px;
+ left: 100px;
+ 
+}
+
+.cabecera_frase {
+ position: absolute;
+ top: 70px;
+ left: 100px;
+}
+	
+.nav {
+display:none;	
+}
+		
+}
+
 
 
 
